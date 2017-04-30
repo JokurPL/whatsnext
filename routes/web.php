@@ -31,7 +31,7 @@ Route::get('/schools/{school}', [
 ]);
 
 
-
+Route::resource('school', 'WhatsController');
 
 
 Auth::routes();

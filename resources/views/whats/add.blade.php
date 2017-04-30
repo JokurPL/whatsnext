@@ -14,12 +14,6 @@
                 <input type="text" class="form-control" name="street" placeholder="Ulica" required="required">
             </div>
             <div class="form-group">
-                <label for="sel1">Kategoria: </label>
-                    <select class="form-control" id="sel1">
-                        <option>1</option>
-                    </select>
-            </div>
-            <div class="form-group">
                 <button class="btn btn-primary">Dodaj szkołę</button>
             </div>
         </form>

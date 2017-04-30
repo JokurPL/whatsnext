@@ -18,6 +18,8 @@ class CreateSchoolsTable extends Migration
             $table->string('name');
             $table->text('description');
             $table->string('street');
+//            $table->string('categories');
+//            $table->ipAddress('visitor');
             $table->timestamps();
         });
     }
